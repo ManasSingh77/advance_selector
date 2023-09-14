@@ -1,0 +1,8 @@
+/* adjacent sibling */
+div>ul>h1+li{
+    color:blue;
+}
+/* general sibling */
+div>ul>h1~li{
+    color:red;
+}
